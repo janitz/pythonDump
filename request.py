@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
 #need to install http://docs.python-requests.org/en/stable/user/install/ (run cmd as admin (sudo) pip install requests)
+#python .\request.py
+
 import sys
 import requests
 
@@ -17,5 +19,5 @@ for strings in liste_raw:
 				strings = "+++" + strings + "+++"
 				liste.append(strings)
 
-for stri in liste:
+pythonfor stri in liste:
 	print(stri)
