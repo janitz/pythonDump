@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 #pythonneed to install http://docs.python-requests.org/en/stable/user/install/ (run cmd as admin (sudo) pip install requests)
-#python .\request.py
-#i bims 1 kommi
+#python .\posticker.py
 
 import sys
 import requests
